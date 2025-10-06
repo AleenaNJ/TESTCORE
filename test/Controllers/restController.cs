@@ -74,6 +74,11 @@ namespace test.Controllers
             return View();
         }
 
+        public IActionResult index()
+        {
+            return View();
+        }
+            
 
     }
 }
